@@ -1,0 +1,12 @@
+# Mouse Controller Server Dependencies
+Flask==3.0.0
+Flask-CORS==4.0.0
+PyAutoGUI==0.9.54
+qrcode==7.4.2
+netifaces==0.11.0
+Pillow==10.1.0
+python-xlib==0.33  # Required for PyAutoGUI on Linux
+MouseInfo==0.1.3   # Required for PyAutoGUI
+pyobjc-core==10.1; sys_platform == 'darwin'      # Required for PyAutoGUI on macOS
+pyobjc-framework-Quartz==10.1; sys_platform == 'darwin'  # Required for PyAutoGUI on macOS
+pyobjc-framework-Cocoa==10.1; sys_platform == 'darwin'   # Required for PyAutoGUI on macOS
